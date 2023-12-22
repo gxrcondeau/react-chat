@@ -21,7 +21,7 @@ const ChatInput = () => {
                 <EmojiEmotionsIcon/>
             </StyledChatInputButton>
             <StyledChatInput onChange={(e) => setMessage(e.target.value)} value={message} id="outlined-basic" label="Message" variant="outlined" />
-            <StyledChatInputButton onClick={() => SendMessage()} variant="text">
+            <StyledChatInputButton color="secondary" onClick={() => SendMessage()} variant="text">
                 <SendIcon/>
             </StyledChatInputButton>
         </StyledChatInputWrapper>
