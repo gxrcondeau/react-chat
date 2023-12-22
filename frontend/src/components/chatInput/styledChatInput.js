@@ -19,8 +19,8 @@ export const StyledChatInput = styled(TextareaAutosize)`
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.5;
-    padding: 12px;
-    border-radius: 12px 12px 0 12px;
+    padding: 6px 12px;
+    border-radius: 12px;
     border-color: rgba(0, 0, 0, 0.23);
     transition: 0.2s;
     
@@ -31,7 +31,7 @@ export const StyledChatInput = styled(TextareaAutosize)`
 `
 
 export const StyledChatInputButton = styled(Button)`
-    height: 47px;
+    height: 35px;
     max-width: 64px;
     width: 100%;
 `
